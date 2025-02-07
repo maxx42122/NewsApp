@@ -56,7 +56,7 @@ class NewsDetail extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  newsModel.description!,
+                  "Description : ${newsModel.description!}",
                   style: GoogleFonts.poppins(
                     fontSize: iswebview ? 18 : 14,
                     color: Colors.grey[700],
